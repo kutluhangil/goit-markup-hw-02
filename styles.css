@@ -1,0 +1,113 @@
+
+/* Tüm renkler style guide kısmından root olarak yazılmuştır */
+:root {
+  --color-primary: #4D5AE5; /* .order-btn, .nav-link:hover */
+  --color-primary-pressed: #404BBF; /* .order-btn:hover, .button:focus */
+  --color-dark: #2E2F42;
+  --color-text: #434455;
+  --color-muted: #8E8F99; /* .helper-text */
+  --color-accent: #E7E9FC;
+  --color-light-bg: #F4F4FD;
+  --color-white: #FFFFFF;
+  --color-modal: #FCFCFC;
+  --color-success: #31D0AA;
+}
+
+/* Ana font ve renk ayarı */
+body {
+  color: var(--color-text);
+  background-color: var(--color-white);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Typography kısmı */
+h1 {
+  color: var(--color-dark);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  color: var(--color-dark);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+h3 {
+  color: var(--color-dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.small-text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+
+.medium-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Button düğmesi */
+.order-btn {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background-color: var(--color-primary-pressed);
+}
+
+/* Links */
+.nav-link {
+  color: var(--color-dark);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-primary);
+}
+
+a {
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+  color: inherit;
+}
+
+/* Yardımcı Sınıflar */
+.helper-text {
+  color: var(--color-muted);
+}
+
+.success-message {
+  color: var(--color-success);
+}
