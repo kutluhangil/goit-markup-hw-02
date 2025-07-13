@@ -4,21 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!--Roboto Font-->
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Roboto font 100-900: Tüm ağırlıklar yüklendi -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  <!-- Modern Normalize CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
-  
-  <!-- Proje kendi CSS dosyası -->
-  <link rel="stylesheet" href="styles.css">
+  <!-- Modern Normalize CSS: Modern tarayıcılar için normalize edildi -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" />
+
+  <!-- Meyer Reset CSS: Tüm varsayılan stiller sıfırlandı -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <!-- CSS dosyası: styles.css dosyası css klasörü içine kondu -->
+  <link rel="stylesheet" href="css/styles.css">
 
   <title>WebStudio</title>
 </head>
 <body>
   <header>
-    <!-- Üst Kısım Başlangıç -->
-    <a href="#">WEBSTUDIO</a> <!-- Logo olarak düşündüğüm için logo şeklinde açtım -->
+    <!-- Logo: Raleway font, uppercase, renk ayarlandı -->
+    <a href="#" class="logo">WebStudio</a>
+
+    <!-- Menü bağlantıları: font-size, hover durumu eklendi -->
     <nav>
       <ul>
         <li><a href="#" class="nav-link">Studio</a></li>
@@ -27,6 +32,7 @@
       </ul>
     </nav>
 
+    <!-- İletişim bilgileri: font-size, hover durumu eklendi -->
     <address>
       <ul>
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
@@ -34,12 +40,12 @@
       </ul>
     </address>
   </header>
-    <!-- Üst Kısım Bitiş -->
 
-    <!-- Orta Kısım Başlangıç-->
   <main>
-    <section>
+    <!-- Hero section: class verildi, arka plan rengi, yükseklik, ortalama yapıldı -->
+    <section class="hero-section">
       <h1>Effective Solutions for Your Business</h1>
+      <!-- Order button: ölçüler figma ile eşleşecek şekilde ayarlandı -->
       <button class="order-btn" type="button">Order Service</button>
     </section>
 
@@ -83,7 +89,7 @@
       </ul>
     </section>
 
-    <!--Ödev 2 başlangıç-->
+    <!-- Our Portfolio: Ödev 2 kısmı, figma düzeniyle eşleşiyor -->
     <section>
       <h2>Our Portfolio</h2>
       <ul>
@@ -119,16 +125,12 @@
         </li>
       </ul>
     </section>
-    <!--Ödev 2 Bitiş-->
-
   </main>
-    <!-- Orta Kısım Bitiş -->
 
-    <!-- Alt Bilgiler Başlangıç-->
-  <footer>
-    <a href="#">WEBSTUDIO</a>
+  <!-- Footer: arka plan rengi, yazı rengi ve hizalama figma ile uyumlu -->
+  <footer class="footer">
+    <a href="#" class="logo">WebStudio</a>
     <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
   </footer>
-    <!-- Alt Bilgiler Bitiş-->
 </body>
 </html>
