@@ -148,11 +148,18 @@ address a:focus {
   color: var(--color-white);
   height: 600px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 0 15px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px; /* Başlık ile buton arası boşluk */
 }
 
 /* Footer stili */
